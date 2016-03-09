@@ -1,0 +1,197 @@
+/*
+Theme Name: barbers
+Theme URI:
+Description: them of barbers. 
+Version: 1.0 
+Author: Dmitry Yakovlev
+Author URI:
+*/
+@font-face {
+    font-family: 'gtw';
+    src: url("http://localhost/barbers/fonts/gtw.ttf") ;
+}
+
+body{
+	font-family: gtw;
+	
+	padding: 0;
+    margin: 0;
+}
+aside, #social, .low{
+	background-color: #1f1e1c ;
+}
+aside{
+	width: 13%;
+	height: 100%;
+	position: absolute;
+}
+aside nav a{
+	text-decoration: none;
+	color: #ddd7d7;
+	font-size: 23px;
+	letter-spacing: px;
+}
+aside nav a span:hover{
+	color: #ffffff;
+}
+#logo{
+	display: block;
+}
+#logo img{
+	width: 100%;
+}
+.line_top{
+	width: 100%;
+    height: 3px;
+	margin: auto;
+}
+.line_bottom{
+	width: 100%;
+    height: 3px;
+	margin: auto;
+}
+nav{
+	width:100%;
+	margin: 45px 0 30px 0;
+	text-align: center;
+	
+}
+#menu{
+	margin: 5%;
+}
+#social{
+	margin-top: 35px;
+	text-align: center;
+}
+#social a {
+	margin: auto;
+}
+a.twitter{
+	background: url(img/twitter_bird.png); 
+    display: block; 
+	width: 50px;
+    height: 50px;
+}
+a.twitter:hover{
+	background: url(img/twitter_bird_w.png); 
+}
+a.facebook{
+	background: url(img/facebook.png); 
+    display: block; 
+	width: 50px;
+    height: 50px;
+}
+a.facebook:hover{
+	background: url(img/facebook_w.png); 
+}
+a.odnoklassniki{
+	background: url(img/odnoklassniki_new.png); 
+    display: block; 
+	width: 50px;
+    height: 50px;
+}
+a.odnoklassniki:hover{
+	background: url(img/odnoklassniki_new_w.png); 
+}
+a.vkontakte{
+	background: url(img/vkontakte.png); 
+    display: block; 
+	width: 50px;
+    height: 50px;
+}
+a.vkontakte:hover{
+	background: url(img/vkontakte_w.png); 
+}
+.low{
+	height: 100%;
+	line-height: 3px;
+	padding-top: 65px;
+}
+#created,#name{
+	color: #ddd7d7;
+	text-align: center;
+	
+}
+p {
+	font-size: 14px;
+}
+#created{
+	font-size: 11 px ;
+}
+#name{
+	font-size: 13 px;
+}
+.main{
+	position: fixed;
+	width: 100%;
+    height: 100%;
+	left: 13%;
+}
+.main a{
+	float:left;
+}
+a.img_middle{
+	display: block; 
+	background: url(img/big.png) no-repeat;
+	background-size: cover;
+	width: 44%;
+	height: 100%;
+}
+a.img_middle:hover{
+	background: url(img/big2.png) no-repeat;
+	background-size: cover;
+}
+a.img_top{
+	display: block; 
+	background: url(img/midle_top.png);
+	background-size: cover;
+	width: 44%;
+	height: 50%;  
+}
+a.img_top:hover{
+	background: url(img/midle_top2.png);
+	background-size: cover;
+}
+a.img_left{
+	display: block; 
+	background: url(img/midle_bot.png);
+	background-size: cover;	
+	width: 22%;
+	height: 50%;
+	
+}
+a.img_left:hover{
+	background: url(img/midle_bot2.png);
+	background-size: cover;	
+}
+a.img_rigth{
+	display: block; 
+	background: url(img/midle_bot3.png);
+	background-size: cover;
+	width: 22%;
+	height: 50%;
+	
+}
+a.img_rigth:hover{
+	background: url(img/midle_bot4.png);
+	background-size: cover;
+}
+#middle{
+
+}
+#rigth{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 57%;
+}
+.line_top img{
+	width: 100%;
+	
+   
+}
+.line_bottom img{
+	width: 100%;
+	
+   
+}
